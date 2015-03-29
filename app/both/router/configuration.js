@@ -6,8 +6,3 @@ Router.configure({
   loadingTemplate: 'Loading',
   notFoundTemplate: 'NotFound'
 });
-
-/*
- *  Example:
- *  Router.route('/', {name: 'home'});
-*/
