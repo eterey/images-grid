@@ -10,3 +10,4 @@ insecure
 telerik:kendo-ui-core-default-theme
 jquery
 iron:router
+sacha:spin
