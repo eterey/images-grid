@@ -7,3 +7,6 @@
 meteor-platform
 autopublish
 insecure
+telerik:kendo-ui-core-default-theme
+jquery
+iron:router
