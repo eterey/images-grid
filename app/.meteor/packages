@@ -10,7 +10,7 @@ insecure
 telerik:kendo-ui-core-default-theme
 jquery
 iron:router
-sacha:spin
 cfs:s3
 cfs:standard-packages
 cfs:filesystem
+fortawesome:fontawesome
