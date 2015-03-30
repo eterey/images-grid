@@ -11,22 +11,22 @@
         <th>Link</th>
       </tr>
     </thead>
-      {{#each images}}
-        <tr>
-          <td>
-            {{name}}
-          </td>
-          <td>
-            {{#if url}}
-              <img src="{{url}}">
-            {{else}}
-              {{> Loading}}
-            {{/if}}
-          </td>
-          <td>
-            <a href="{{url}}" download="{{name}}">Download</a>
-          </td>
-        </tr>
-      {{/each}}
+    {{#each images}}
+      <tr>
+        <td>
+          {{name}}
+        </td>
+        <td>
+          {{#if url}}
+            <img src="{{url}}">
+          {{else}}
+            {{> Loading}}
+          {{/if}}
+        </td>
+        <td>
+          <a href="{{url}}" download="{{name}}">Download</a>
+        </td>
+      </tr>
+    {{/each}}
   </table>
 </template>

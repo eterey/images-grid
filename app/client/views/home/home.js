@@ -2,7 +2,7 @@
 /* Home: Event Handlers and Helpersss .js*/
 /*****************************************************************************/
 Template.Home.events({
-  'submit form#upload-image': function(e, tmpl) {
+  'submit form#upload-image': function (e, tmpl) {
     e.preventDefault();
     // Get image.
     var file = tmpl.find('input[name="files"]').files[0];
