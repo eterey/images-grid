@@ -1,3 +1,26 @@
 <template name="Home">
-  <div id="images-grid"></div>
+  <table id="images-grid">
+    <thead>
+      <tr>
+        <th>Filename</th>
+        <th>Image</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each images}}
+        <tr>
+          <td>
+              {{filename}}
+          </td>
+          <td>
+              {{src}}
+          </td>
+          <td>
+            <a href="#">Download</a>
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
 </template>
