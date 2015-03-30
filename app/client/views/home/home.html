@@ -24,7 +24,9 @@
           {{/if}}
         </td>
         <td>
-          <a href="{{url}}" download="{{name}}">Download</a>
+          {{#with url download=true}}
+            <a href="{{this}}">Download</a>
+          {{/with}}
         </td>
       </tr>
     {{/each}}
