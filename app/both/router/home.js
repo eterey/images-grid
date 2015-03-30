@@ -1,1 +1,6 @@
-Router.route('/', {name: 'home'});
+Router.route('/', {
+  name: 'home',
+  data: {
+    images: Images.find()
+  }
+});

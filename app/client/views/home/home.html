@@ -1,4 +1,8 @@
 <template name="Home">
+  <form id="upload-image">
+    <input name="files" type="file">
+    <input type="submit" value="Submit">
+  </form>
   <table id="images-grid">
     <thead>
       <tr>
@@ -11,13 +15,13 @@
       {{#each images}}
         <tr>
           <td>
-              {{filename}}
+            {{name}}
           </td>
           <td>
-              {{src}}
+             <img src="{{url}}">
           </td>
           <td>
-            <a href="#">Download</a>
+            <a href="{{url}}" download="{{name}}">Download</a>
           </td>
         </tr>
       {{/each}}
